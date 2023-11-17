@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- slick -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <!-- font awsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+ <!-- pure -->
+    <link rel="stylesheet" href="/assets/css/main.css" />
+  </head>
+  <body>
+    <header>
+      <div class="nav1">
+        <div class="nav-left">
+          <p><i class="fa-solid fa-envelope"></i> hello@colorlib.com</p>
+          <div class="line"></div>
+          <p>Free Shipping for all Order of $99</p>
+        </div>
+        <div class="nav-right">
+          <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-pinterest"></i>
+          </div>
+          <div class="line"></div>
+          <div class="lang">
+            <img src="/assets/images/Без названия (1).png" alt="flag" />
+            <p>English</p>
+            <i class="fa-solid fa-chevron-down"></i>
+          </div>
+          <div class="line"></div>
+          <div class="login">
+            <i class="fa-solid fa-user"></i> <span>Login</span>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="navigator">
+        <div class="inner-navigator">
+          <img
+          src="https://preview.colorlib.com/theme/ogani/img/logo.png.webp"
+          alt=""
+        />
+        <div class="links">
+          <a href="">HOME</a>
+          <a href="">SHOP</a>
+          <a href="">PAGES</a>
+          <a href="">BLOG</a>
+          <a href="">CONTACT</a>
+        </div>
+        <div class="header_cart">
+          <div class="heart">
+            <i class="fa-solid fa-heart"></i>
+            <div class="zero">0</div>
+          </div>
+          <div class="shop">
+            <i class="fa-solid fa-bag-shopping"></i>
+            <div class="zero">0</div>
+          </div>
+          <p><span>item:</span> $150.00</p>
+        </div>
+
+        </div>
+        
+      </div>
+      <section id="hero">
+        <div class="departments">
+          <div class="header">
+            <i class="fa-solid fa-bars"></i>
+            <p>All departments</p>
+            <i class="fa-solid fa-chevron-down"></i>
+          </div>
+          <ul>
+            <li>Fresh Meat</li>
+            <li>Vegetables</li>
+            <li>Fruit & Nut Gifts</li>
+            <li>Fresh Berries</li>
+            <li>Ocean Foods</li>
+            <li>Butter & Eggs</li>
+            <li>Fastfood</li>
+            <li>Fresh Onion</li>
+            <li>Papayaya & Crisps</li>
+            <li>Oatmeal</li>
+            <li>Fresh Bananas</li>
+          </ul>
+        </div>
+        <div class="rest">
+          <div class="hero-header">
+            <div class="search-box">
+              <div class="catagories">
+                All Categories <i class="fa-solid fa-chevron-down"></i>
+              </div>
+              <div class="line"></div>
+              <input type="text" placeholder="What do yo need?" />
+              <div class="search-button">SEARCH</div>
+            </div>
+            <div class="support">
+              <div class="phone"><i class="fa-solid fa-phone"></i></div>
+              <div class="info">
+                <p>+65 11.188.888</p>
+                <p>support 24/7 time</p>
+              </div>
+            </div>
+          </div>
+          <div class="img">
+            <img
+              src="https://preview.colorlib.com/theme/ogani/img/hero/banner.jpg.webp"
+              alt=""
+            />
+
+            <div class="text">
+              <p>FRUIT FRESH</p>
+              <p>Vegetable</p>
+              <p>100% Organic</p>
+              <p>Free Pickup and Delivery Available</p>
+              <button>SHOP NOW</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="slider">
+        <div class="your-class">
+          <div><img src="https://preview.colorlib.com/theme/ogani/img/categories/cat-5.jpg.webp" alt=""></div>
+          <div><img src="https://preview.colorlib.com/theme/ogani/img/categories/cat-3.jpg.webp" alt=""></div>
+          <div><img src="https://preview.colorlib.com/theme/ogani/img/categories/cat-4.jpg.webp" alt=""></div>
+        </div>
+        <div><img src="https://preview.colorlib.com/theme/ogani/img/categories/cat-5.jpg.webp" alt=""></div>
+
+        
+     
+       
+      </section>
+      
+    </main>
+   <!-- jqueryyyyyyyyy -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!-- slick -->
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script>
+      $(document).ready(function(){
+  $('.your-class').slick({
+    slidesToShow: 4,
+                slidesToScroll: 1,
+                prevArrow:'<i class="fa-solid fa-angle-left"></i>',
+                nextArrow:'<i class="fa-solid fa-angle-right"></i>',
+                autoplay:true,
+                infinite: true,
+                speed: 500,
+                autoplaySpeed: 1000,
+    
+  });
+});
+    </script>
+
+    <script src="/assets/script/index.js"></script>
+  </body>
+</html>
